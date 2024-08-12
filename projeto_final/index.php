@@ -1,0 +1,92 @@
+<?php
+      session_start();
+      if ($_POST['Email']){
+        if ($_POST['Email'] == '' && $_POST['pwd'] == ''){
+            $encriptada =md5(session_id());
+            $_SESSION['string'] = $encriptada;
+            $resultado = 'email correto';
+        }else{
+            $resultado = 'email incorreto';
+        }
+      }else{
+        $resultado = 'preencha o email e a palavra passe';
+      
+
+      }
+        
+    
+        ?>
+
+<!Doctype html>
+<html lang="pt">  
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Projeto Final</title>  
+
+        <link href="estilo.css" rel="stylesheet">
+
+     <script src="http://code.jquery.com/jquery-3.7.1.min.js"> </script>
+<script type="text/javascript" src="ajax.js"></script>
+    </head>
+    <style>
+
+        body{
+            background-image: linear-gradient(to right, #1D1D1D, #3EC522, #ffffff);
+
+        }
+        .caixa0{
+            margin-bottom: 200px;
+            padding: 22px 0px 0px 0px;
+            width: auto;
+            height: 50px;
+	    }
+        #logo{
+		display: flex;
+  		padding: 59px;
+  		padding-inline: 795px;
+	}
+    </style>
+
+        <body>
+     
+
+             <div class="caixa0">
+              <span id="logo"><img src="img/logo1.jpg";="" style="border-radius: 20px;"></span>
+                </div>
+            
+                <div class="caixa1">
+
+                <h2>Planeamento de Férias</h2>
+        
+                <form method="post" action="login.php">
+                <input type="text" id="email" placeholder="Inserir o email" name="email" required><br>
+                <input type="password" id="pwd" placeholder="Inserir a senha" name="pwd" required><br><br>
+                <button type="submit" value="Entrar" id="entrar" class="botao">Entrar</button>
+
+                <p>
+                    <h2><a href="form.php"><mark>Registar</mark></a></h2>
+                </p>
+                <p>
+                    <h2><a href="#"><mark>Recuperar a palavra passe</mark></a></h2>
+            </div>
+                    
+
+      <p id="conta" style="text-align:right;margin-top:20%"><a id="registo" href="form.php">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 256 512">
+      <path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/>
+      </svg></a></p>
+            </form>
+             </div>
+
+   
+             </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    
+        </body>
+
+</html>

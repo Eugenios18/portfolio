@@ -1,0 +1,296 @@
+
+
+.row::after {
+
+content: "";
+
+display: table;
+
+clear: both;
+}
+
+
+.header {
+
+  color: #0d3a61;
+
+  padding: 10px;
+
+ text-align: center;
+
+ font-size: 25px;
+}
+
+.paragrafo1{
+        
+  font-family: "Lucida Console", "Courier New", monospace;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  text-transform: uppercase;
+        
+  text-decoration: none;
+
+  letter-spacing:1px;
+
+        }
+
+ span#Ozone_text{
+        
+  font-weight: bold;
+        
+        }
+
+h2{
+
+  text-align: center;
+
+  font-size: 35px;
+
+  font-family:'Times New Roman', Times, serif;
+}
+
+.paragrafo2{
+
+  text-align: center;
+
+  font-size: 30px;
+}
+
+p{
+
+  font-size: 20px; 
+  
+  font-family: Algerian;
+
+  text-align: center;
+}
+
+#section1{
+
+  margin-top: 20px;
+}
+
+#section2{
+
+  background-color:black;
+
+  color:white;
+}
+
+ul{
+
+  background-color: rgb(24, 21, 21);
+
+  color: rgb(231, 227, 227);
+
+  
+}
+
+div.desc {
+
+ padding: 15px;
+
+ color:rgb(12, 12, 12);
+
+ font-size:20px;
+
+ }
+
+
+ .fab, .fas{
+
+  font-size:80px;
+
+  color:rgb(12, 9, 9);
+
+  margin-top:30px;
+
+ }
+
+.fas{
+
+color: rgb(20, 19, 19);
+
+}
+
+.redes-sociais{
+
+background-color: rgb(213, 230, 230);
+
+text-align:center;
+
+ border-bottom: none;
+
+ padding-bottom:10px;
+
+ }
+ 
+
+#telefone, #mail, #morada{
+
+width:20%;
+
+padding: 0px 10px;
+
+font-size: 30px;
+
+
+}
+
+a.botao:link, a.botao:visited, a.botao:hover{
+
+background-color:black;
+
+color: rgb(218, 205, 205);
+
+text-decoration: none;
+
+font-size: 35px;
+
+}
+
+a.botao:hover{
+
+background-color:white;
+
+color:black;
+
+}
+  
+  .galeria-imagens{
+  
+  display: inline-block;
+  
+  text-align: center;
+  
+  }
+
+  .esgotado{
+
+  background-color: rgb(223, 26, 26);
+
+  color: white;
+
+  font-size: 20px;
+}
+
+.bilhetes{
+
+  float:right;
+
+  color: rgb(19, 3, 3);
+
+  background-color: rgb(243, 234, 234);
+
+  border-radius: 25px;
+}
+
+h1 {
+
+  font-family: Blackadder ITC;
+
+  font-size: 80px;
+}
+
+#float-right{
+
+  float: right;
+}
+
+
+.card-text, p{
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+
+ margin-top: 50px;
+
+ width: 500px;
+
+ text-align: center;
+}
+
+.card{
+
+  text-align: center;
+}
+
+.card-img-top{
+
+  width: 300px;
+
+  margin-bottom: 0px;
+
+
+
+}
+
+.card-footer{
+
+  background-color: rgb(16, 5, 37);
+}
+
+.card-text{
+
+  text-align: center;
+
+  color: rgb(11, 12, 12);
+
+  margin-bottom: 10px;
+}
+
+.galery {
+
+  text-align: center;
+
+  margin-top: 10px;
+
+  width: 600px;
+
+
+}
+
+
+h5{
+
+  margin-top: 0px;
+
+  color: black;
+}
+
+.conteiner{
+
+  display: flex;
+
+  flex-direction:row;
+}
+
+.formulário{
+
+  margin-left: auto;
+
+  padding-right: 200px;
+}
+
+.contactos-jd{
+
+  padding-left: 300px;
+
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

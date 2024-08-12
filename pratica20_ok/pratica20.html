@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratica 20</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+  <div class="caixa0">
+    <h1 id="title-header">MasterD</h1>
+  </div>
+  <div class="caixa1">
+    <br>
+    <form action="" method="" id="formulario" name="formulario" onsubmit="return validar(this)">
+      <h3>Preencha os seguintes campos:</h3>
+      <table>
+        <tr>
+          <td>
+            <h5>NOME:</h5>
+          </td>
+          <td class="font">
+            <input class="textbox" type="text" name="nome" id="nome" maxlength="50" size="40"
+                   value="" placeholder="O seu nome" required> *
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5>MORADA:</h5>
+          </td>
+          <td class="font">
+            <input class="textbox" type="text" name="morada" id="morada" maxlength="80" size="40"
+                   value="" placeholder="A sua morada" required> *
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5>TELEMÓVEL</h5>
+          </td>
+          <td class="font">
+            <input class="textbox" type="text" name="telefone" id="telefone" maxlength="9" size="9"
+                    value="" placeholder="O seu número de telemóvel" required> *
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5>IDADE:</h5>
+          </td>
+          <td class="font">
+            <input class="textbox" type="text" name="idade" id="idade" maxlength="2" size="9"
+                    value="" placeholder="A sua idade" required> *
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5>E-MAIL</h5>
+          </td>
+          <td class="font">
+            <input class="textbox" type="text" name="email" id="email" maxlength="50" size="40"
+                    value="" placeholder="O seu e-mail" required> *
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p>(*) Os campos marcados com um asterisco são obrigatorios.</p>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <div class="botoes">
+        <input class="botao cinza" type="submit" name="Botao enviar" value="ENVIAR">
+        <input class="botao cinza" type="reset" name="Botao apagar" value="APAGAR">
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
